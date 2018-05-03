@@ -287,7 +287,10 @@ section.features .feature-item i {
 section.cta {
   position: relative;
   padding: 250px 0;
-  background-image: url("../img/bg-cta.jpg");
+  background-image: linear-gradient(
+    rgba(101, 103, 104, 0.85),
+    rgba(101, 103, 104, 0.85)
+    ),url("../img/place2.png");
   background-position: center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -298,6 +301,10 @@ section.cta {
 section.cta .cta-content {
   position: relative;
   z-index: 1;
+}
+
+.cta {
+  color: white;
 }
 
 section.cta .cta-content h2 {
